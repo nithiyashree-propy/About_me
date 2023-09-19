@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible"content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Personal portfolio Website</title>
+        <link rel="stylesheet"href="style.css">
+       <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script> 
+</head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/image3.png">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#About">About</a></li>
+                        <li><a href="#Services">Projects</a></li>
+                        <li><a href="#portfolio">My portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fas fa-times"onclick="closemenu()"></i>
+
+                    </ul>
+                    <i class="fas fa-bars"onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>    SOFTWARE DEVELOPER</p>
+                    <h1>   Hi, I'm <span>Nithiya</span><br>from India</h1>
+                </div>
+            </div>
+        </div>
+        <!-- ----------about--------------->
+        <div id="About">
+            <div class="container">
+              <div class="row">
+                <div class="About-col-1">
+                    <img src="D:\Portfolio\images\new3.jpeg">
+                </div>
+                <div class="About-col-2">
+                      <h1 class="sub-title">About Me</h1>
+                      <p>As a recent graduate in software engineering, I'm eager to embark on my professional journey in the dynamic world of technology. 
+                        I'm enthusiastic about applying my knowledge to real-world projects.  I'm excited to join a collaborative team where 
+                        I can learn from experienced engineers, contribute my fresh perspectives, and grow into a skilled software developer. 
+                        I'm committed to continuous process<br> self-improvement and passionate about leveraging technology to create innovative solutions 
+                        that make a positive impact in the industry.
+
+                        
+                      </p>
+
+
+                      <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        <p class="tab-links" onclick="opentab('certification')">Certification</p>
+                     </div>
+                      <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Django, Html, Css, Js</li>
+                            <li><span>App Development </span><br>Building Android application</li>
+                            <li><span>UI/UX</span><br>Designing Web/app Interface</li>
+                            <li><span>Python</span><br>Expert</li>
+                            <li><span>C</span><br>beginner</li>
+                            <li><span>Java</span><br>beginner</li>
+                            <li><span>SQL</span><br>backend</li>
+
+                        </ul>
+                      </div>
+                      <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2023</span><br>python-Internship</li>
+                            <li><span>2023</span><br>Android-Internship</li>
+                            <li><span>2022</span><br>Advance Java Training</li>
+                            <li><span>2022</span><br>Ethical Hacking Training</li>
+                            
+                        </ul>
+                      </div>
+                      <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2024</span><br>Information Technology from Kongunadu College <b>CGPA:8.74</b></li>
+                            <li><span>2020 </span><br>HSC -Bharathi Hr sec school<b> 75.5%</b></li>
+                            <li><span>2018</span><br>SSLC- Mullai higher Secondary school <b>86.6%</b></li>
+                        </ul>
+                      </div>
+                      <div class="tab-contents" id="certification">
+                        <ul>
+                          <li><span>cyber</span><br>Ethical Hacking</li>
+                          <li><span>udemy</span><br>100 days python coding challenge</li>
+                            <li><span>csc</span><br>CCA (basic omputer fundamental)</li>
+                            <li><span>Java</span><br>Advance java</li>
+                            <li><span>cyber</span><br>Ethical Hacking</li>
+                        </ul>
+                      </div>
+                    </div>
+                </div>   
+             </div>
+        </div>
+
+        <!--------------services---------->
+        <div id="Services">
+            <div class="container">
+                <h1 class="sub-title">My Domain</h1>
+                <div class="Services-list">
+                    <div>
+                        <i class="fas fa-code"></i>
+                        <h2>Web Development</h2>
+                        <p>the process of planning, conceptualizing, and implementing the plan for designing a
+                         website in a way that is functional and offers a good user experience.</p>
+                        <a href="#">learn more</a>
+                    </div>
+                    <div>
+
+                        <i class="fab fa-app-store"></i>
+                        <h2>App Development</h2>
+                        <p>Mobile app design is the task of designing mobile applications. 
+                            Even though mobile apps have a wide variety of uses, what unifies 
+                            them is the need for optimal usability, accessibility, engagement, and overall user experience.</p>
+                        <a href="#">learn more</a>
+                    </div>
+                    <div>
+                        <i class="fas fa-crop-alt"></i>
+                        <h2>UI/UX</h2>
+                        <p>UX (user experience) and UI (user interface) are two interdependent terms. 
+                            While UI generally deals with the interaction between users and
+                             computer systems, software and applications, UX deals more generally with a 
+                             user's overall experience with a brand, product or service.
+                        </p>
+                        <a href="#">learn more</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!------------portfolio------------------------------->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title"> My projects</h1>
+                <div class="work-list">
+                    <div class="work">
+                      <img src="images/work1.png">
+                      <div class="layer">
+                        <h3>Hotel management</h3>
+                        
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                      </div>
+                    </div>
+                    <div class="work">
+                      <img src="images/Screenshot (66).png">
+                      <div class="layer">
+                        <h3>password generator-backend</h3>
+                        
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                      </div>
+                    </div>
+                    <div class="work">
+                      <img src="images/Screenshot (67).png">
+                      <div class="layer">
+                        <h3>stone paper scissor game</h3>
+                        
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                      </div>
+                    </div>
+                      <div class="work">
+                        <img src="images/work4.jpg">
+                        <div class="layer">
+                          <h4>Student's Mark Intimation through Message</h4>
+                          
+                          <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                        
+                      </div>
+                      <div class="work">
+                        <img src="images/work1a.png">
+                        <div class="layer">
+                          <h3>Hotel management part 2</h3>
+                          
+                          <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                      </div>
+                      <div class="work">
+                        <img src="images/work5.jpg">
+                        <div class="layer">
+                          <h4>Real Time data detection using open cv</h4>
+                          
+                          <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                      </div>
+                      <div class="work">
+                        <img src="images/work3.jpg"><div class="layer">
+                          <h4>Underwater ROV vehicle</h4>
+                          
+                          <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                      </div>
+                </div>
+                <a href="#"class="btn" >See More</a>
+            </div>
+        </div>
+        <div id="Achievement">
+          <div class="container">
+              <h1 class="sub-title"> My Achievements</h1>
+              <div class="work-lists">
+                  <div class="works">
+                    <img src="images/banari amman.jpg">
+                    <div class="layers">
+                      <h3>paper presentation</h3>
+                      
+                      <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                  </div>
+                  
+                    <div class="works">
+                      <img src="images/sih fgrp.jpg">
+                      <div class="layers">
+                        <h4>Team work Gujarat-hackathon</h4>
+                        
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                      </div>
+                      
+                    </div>
+                    <div class="works">
+                      <img src="images/sih.jpg">
+                      <div class="layers">
+                        <h3> Gujarat-hackathon</h3>
+                        
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                      </div>
+                    </div>
+                    <div class="works">
+                      <img src="images/group.jpg">
+                      <div class="layers">
+                        <h4>Overall championship</h4>
+                        
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                      </div>
+                    </div>
+                    <div class="works">
+                      <img src="images/tanjoreq.jpg">
+                      <div class="layers">
+                        <h4>project expo</h4>
+                        
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                      </div>
+                    </div>
+                    <div class="works">
+                      <img src="images/hackathon.jpg">
+                      <div class="layers">
+                        <h4>second prize(hackathon)</h4>
+                        
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                      </div>
+                    </div>
+              </div>
+              <a href="#"class="btns" >See More</a>
+          </div>
+      </div>
+      <!------------contact------------------------------->
+      <div id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="contact-left">
+              <h1 class="sub-title">Contact me</h1>
+              <p><i class="fas fa-paper-plane"></i>nithiyashreesenthil2003@gmail.com</p>
+              <p><i class="fas fa-phone-square-alt"></i>9994081974</p>
+              <div class="social-icons">
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fab fa-linkedin"></i></a>
+
+              </div>
+              <a href="images/Nithiyashree_resume2.pdf" class="btn btn2">Download CV</a>
+
+            </div>
+            <div class="contact-right">
+            <form name ="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="your name"required>
+              <input type="email" name="email" placeholder="your Email"required>
+              <textarea name="Message" rows="6" placeholder="your message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>Copyright ©nithiyashree </p>
+        </div>
+
+      </div>
+        <script>
+
+            var tablinks= document.getElementsByClassName("tab-links");
+            var tabcontents= document.getElementsByClassName("tab-contents");
+           
+           
+            function opentab(tabname){
+              for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+              }
+              for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+              }
+              event.currentTarget.classList.add("active-link");
+              document.getElementById(tabname).classList.add("active-tab");
+
+            }
+
+
+        </script>
+        <script>
+          var sidemeu=document.getElementById("sidemenu");
+          function openmenu(){
+              sidemeu.style.right="0"
+
+          }
+          function closemenu(){
+              sidemeu.style.right="-200px";
+              
+          }
+        </script>
+        <script>
+          const scriptURL = 'https://script.google.com/macros/s/AKfycbz8fLUxUz1vME_s8WrQZQ4_ybXusqiNCdXfvDy5cLAgiYT17HJjsmoJ9Ys017zS3kM/exec'
+          const form = document.forms['submit-to-google-sheet']
+          const msg=document.getElementById("msg")
+        
+          form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+              .then(response => {
+                 msg.innerHTML="Message sent successfully"
+                 setTimeout(function(){
+                  msg.innerHTML=""
+                 },5000)
+                 form.reset()
+              })
+              .catch(error => console.error('Error!', error.message))
+          })
+        </script>
+    
+
+    </body>
+</html>
